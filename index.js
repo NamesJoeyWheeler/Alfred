@@ -7,15 +7,4 @@ client.on('message', msg => {
   }
 });
 
-client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'hi') {
-    
-  let embed = new Discord.RichEmbed()
-  .addfield("embed test", "yoyoyoyoyo");
-  
-  message.channel.send(embed);
-    
-  }
-});
-
 client.login(process.env.BOT_TOKEN);

@@ -19,8 +19,9 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'steamed hams') {
-    msg.reply('Thats what I call hamburgers!');
+    msg.reply('thats what i call hamburgers!');
   }
 });
+
 
 client.login(process.env.BOT_TOKEN);

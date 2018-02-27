@@ -18,8 +18,8 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'well seymour, I made it. Despite your directions.') {
-    msg.reply('Ah! Superintendent Chalmers, welcome. I hope you are prepared for an unforgettable luncheon!');
+  if (msg.content === 'steamed hams') {
+    msg.reply('Thats what I call hamburgers!');
   }
 });
 

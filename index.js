@@ -30,7 +30,7 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === '2801') {
+  if (msg.content === 'that sauce') {
     msg.reply('https://github.com/NamesJoeyWheeler/Alfred');
   }
 });

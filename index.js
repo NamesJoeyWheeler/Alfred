@@ -31,7 +31,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === '2801') {
-    msg.reply('https://github.com/NamesJoeyWheeler/Alfred/');
+    msg.reply('https://github.com/NamesJoeyWheeler/Alfred');
   }
 });
 

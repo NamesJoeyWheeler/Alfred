@@ -35,4 +35,10 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content === 'Blue Hat') {
+    msg.reply('Congrats! You found out the secret code! You will recieve a prize! But if your irl name is Ben, then you can not claim this.');
+  }
+});
+
 client.login(process.env.BOT_TOKEN);

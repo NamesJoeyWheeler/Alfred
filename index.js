@@ -41,4 +41,10 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content === 'DELET THIS') {
+    msg.reply('http://i0.kym-cdn.com/photos/images/newsfeed/001/146/898/c9c.jpg');
+  }
+});
+
 client.login(process.env.BOT_TOKEN);

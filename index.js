@@ -71,4 +71,10 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content === 'Other Programs') {
+    msg.reply('Perhaps this might interest you? https://github.com/NamesJoeyWheeler/Millenium-Eye My creator made it.');
+  }
+});
+
 client.login(process.env.BOT_TOKEN);

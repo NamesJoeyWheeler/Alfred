@@ -47,4 +47,10 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content === 'Are you Kira') {
+    msg.reply('HAHAHAHAHHAHAHAHAHAHAHHAHAHA THAT IS RIGHT... I AM KIRA...');
+  }
+});
+
 client.login(process.env.BOT_TOKEN);

@@ -19,7 +19,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'well seymour, I made it. Despite your directions.') {
-    msg.reply('Ah! Superintendent Chalmers, welcome. I hope you're prepared for an unforgettable luncheon!');
+    msg.reply('Ah! Superintendent Chalmers, welcome. I hope you are prepared for an unforgettable luncheon!');
   }
 });
 

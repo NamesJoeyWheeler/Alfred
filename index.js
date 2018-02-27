@@ -49,7 +49,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'Are you Kira') {
-    msg.reply('HAHAHAHAHHAHAHAHAHAHAHHAHAHA THAT IS RIGHT... I AM KIRA...');
+    msg.reply('HAHAHAHAHHAHAHAHAHAHAHHAHAHA! THAT IS RIGHT... I AM KIRA...');
   }
 });
 

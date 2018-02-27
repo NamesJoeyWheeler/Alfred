@@ -29,5 +29,10 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content === '353-627-262') {
+    msg.reply('https://github.com/NamesJoeyWheeler/Alfred/');
+  }
+});
 
 client.login(process.env.BOT_TOKEN);

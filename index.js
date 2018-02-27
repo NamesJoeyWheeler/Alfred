@@ -1,10 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
-client.on('message', msg => {
-  if (msg.content === 'ping') {
-    msg.reply('Pong!');
-  }
+client.on("message", message => {
+  if (message.author.id === "338961848168742922") message.reply("test");
 });
 
-client.login(orocess.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);

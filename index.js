@@ -2,12 +2,18 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 client.on("message", message => {
-  if (message.author.id === "293181883871920128") message.reply("test");
+  if (message.author.id === "416436767466586162") message.reply("Imposter!");
 });
 
 client.on('message', msg => {
   if (msg.content === 'ping') {
     msg.reply('Pong!');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'heil hitler') {
+    msg.reply('nein!');
   }
 });
 

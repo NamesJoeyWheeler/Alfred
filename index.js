@@ -64,4 +64,11 @@ client.on('message', msg => {
     msg.reply('The developer will get to you asap.');
   }
 });
+
+client.on('message', msg => {
+  if (msg.content === 'Download') {
+    msg.reply('You can download Alfred here - https://thirsty-yam.glitch.me/download.html');
+  }
+});
+
 client.login(process.env.BOT_TOKEN);

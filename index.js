@@ -23,5 +23,11 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content === 'who did 911') {
+    msg.reply('https://media.discordapp.net/attachments/331721140978319361/331721426082201610/image.png?width=748&height=422');
+  }
+});
+
 
 client.login(process.env.BOT_TOKEN);

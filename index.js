@@ -55,8 +55,13 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'BTD') {
-    msg.reply('@everyone THEY JUST MENTIONED THE FORBIDDEN GAME!! WATCH HIM GET BANNED!!');
+    msg.reply('JUST MENTIONED THE FORBIDDEN GAME @everyone!! WATCH HIM GET BANNED!!');
   }
 });
 
+client.on('message', msg => {
+  if (msg.content === 'Problem') {
+    msg.reply('The developer will get to you asap.');
+  }
+});
 client.login(process.env.BOT_TOKEN);
